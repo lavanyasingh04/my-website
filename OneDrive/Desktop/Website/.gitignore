@@ -1,27 +1,24 @@
-# Ignore common system and application data folders
-/AppData/
-/Documents/
-/Downloads/
-/Favorites/
-/Links/
-/Music/
-/OneDrive/
-/Pictures/
-/Saved Games/
-/Searches/
-/Videos/
-/VirtualBox VMs/
+# Ignore system folders
+*.log
+*.bak
+*.tmp
 
-# Ignore files outside project scope
-/ntuser.dat*
-*.lnk
-*.docx
-*.pdf
-*.jpg
-*.png
-*.zip
-*.exe
+# Ignore Windows-specific folders and files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Ignore IDE-specific files
-.idea/
+# Ignore all files in system folders
+AppData/
+Documents/
+Downloads/
+Cookies/
+Favorites/
+My Music/
+My Pictures/
+My Videos/
+
+# Ignore virtual environments
 .vscode/
+.idea/
+*.env
