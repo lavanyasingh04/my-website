@@ -1,0 +1,21 @@
+ECHO is on.
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment variable file
+.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE configuration files
+.vscode/
+.idea/
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore log files
+*.log
